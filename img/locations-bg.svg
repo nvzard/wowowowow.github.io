@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1500px" height="1015px" viewBox="0 0 1500 1015" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>map</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="about" transform="translate(0.000000, -2097.000000)">
+            <g id="map" transform="translate(0.000000, 2097.000000)">
+                <rect id="Rectangle-3" fill="#F7F7F7" opacity="0.900000036" x="750" y="0" width="750" height="130"></rect>
+                <rect id="Rectangle-3" fill="#ADD6D9" x="750" y="125" width="750" height="890"></rect>
+                <rect id="Rectangle-3" fill="#7CBBBF" opacity="0.900000036" x="0" y="20" width="750" height="385"></rect>
+                <rect id="Rectangle-3" fill="#70C6CC" opacity="0.5" x="0" y="0" width="750" height="20"></rect>
+                <rect id="Rectangle-3" fill="#B8D7D9" opacity="0.699999988" x="0" y="385" width="750" height="580"></rect>
+                <polyline id="Fill-10" fill="#849EA7" points="1323.71945 314.237581 1323.71945 314.240111 1323.71945 314.237581"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
