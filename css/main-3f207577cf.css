@@ -5662,11 +5662,11 @@ picture {
   color: #282f33;
 }
 
-.primary-nav .navbar-nav .menu-item a.is-red {
-  color: #b54036;
+.primary-nav .navbar-nav .menu-item a.is-green {
+  color: green;
 }
 
-.primary-nav .navbar-nav .menu-item a.is-red:hover {
+.primary-nav .navbar-nav .menu-item a.is-green:hover {
   color: #282f33;
 }
 
