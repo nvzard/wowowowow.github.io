@@ -1,6 +1,0 @@
-# www.robotstxt.org/
-# https://developers.google.com/webmasters/control-crawl-index/
-
-Sitemap: https://www.electricpulp.com/sitemap.xml
-
-User-agent: *
