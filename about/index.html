@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 	<title>HackerRank Summer Interns 2019</title>
+
 	<!-- Add cover photo as meta tag inside content -->
 	<meta name="image" content="">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -48,7 +49,7 @@
 					<div class="navbar-header">
 					<a href="https://www.hackerrank.com" class="navbar-brand">
 						<span class="logo">
-							<img class="hackerrank-logo" src="../img/team/hackerrank_logo.png">
+							<img class="hackerrank-logo" src="../img/team/HR_Logo_Black-Green.svg">
 						</span>
 					</a>
 					</div>
@@ -239,5 +240,45 @@
 			</div>
 		</div>
 	</div>
+	<!-- Modal Anubhav -->
+	<div class="modal fade" id="anubhavModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+				<div class="modal-content">
+						<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+								<h4 class="modal-title" id="myModalLabel">More About Joe</h4>
+								</div>
+						<div class="modal-body">
+								<center>
+								<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+								<h3 class="media-heading">Joe Sixpack <small>USA</small></h3>
+								<span><strong>Skills: </strong></span>
+										<span class="label label-warning">HTML5/CSS</span>
+										<span class="label label-info">Adobe CS 5.5</span>
+										<span class="label label-info">Microsoft Office</span>
+										<span class="label label-success">Windows XP, Vista, 7</span>
+								</center>
+								<hr>
+								<center>
+								<p class="text-left"><strong>Bio: </strong><br>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+								<br>
+								</center>
+						</div>
+						<div class="modal-footer">
+								<center>
+								<button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Joe</button>
+								</center>
+						</div>
+				</div>
+		</div>
+	</div>
+	<script>
+	$(document).ready(function(){
+	  $("#anubhav").click(function(){
+		$("#anubhavModal").modal('show');
+	  });
+	});
+	</script>
 </body>
 </html>
