@@ -19,7 +19,9 @@
 	<link rel="apple-touch-icon-precomposed" href="https://hrcdn.net/hackerrank/assets/apple-touch-icon-precomposed-5e8e592a0a1a387a1185089d13d65637.png"/>
 	<link rel="shortcut icon" type="image/png" href="https://hrcdn.net/hackerrank/assets/favicon-95dc36c7e91ed5f1841649303c027edb.png"/>
 	<link rel="canonical" href="index.html" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="HackerRank Summer Interns 2019">
@@ -38,6 +40,8 @@
 
     <script src="https://hrcdn.net/hackerrank/jquery.js"></script>
 	<link rel="stylesheet" href="../css/main-3f207577cf.css">
+	<!-- Add cover photo for twitter as meta tag inside content -->
+	<meta name="twitter:image:src" content="">
 </head>
 
 <body class="">
@@ -174,7 +178,7 @@
 					</div>
 					<div class="col-xs-6 col-ms-6 col-sm-6 col-md-3">
 						<figure>
-							<div class="team-card" class="priyanshi">
+							<div class="team-card" id="priyanshi">
 								<div class="card-front">
 									<img class="intern" src="../img/team/priyanshi.png" alt="Priyanshi Gupta - TCE Intern" height="235" width="235">
 								</div>
@@ -246,11 +250,11 @@
 				<div class="modal-content">
 						<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-								<h4 class="modal-title" id="myModalLabel">More About Joe</h4>
-								</div>
+								<h4 class="modal-title" id="myModalLabel">Anubhav Goyal</h4>
+						</div>
 						<div class="modal-body">
 								<center>
-								<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+								<img src="../img/" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
 								<h3 class="media-heading">Joe Sixpack <small>USA</small></h3>
 								<span><strong>Skills: </strong></span>
 										<span class="label label-warning">HTML5/CSS</span>
@@ -274,9 +278,386 @@
 		</div>
 	</div>
 	<script>
+		$(document).ready(function(){
+			$("#anubhav").click(function(){
+				$("#anubhavModal").modal('show');
+			});
+		});
+	</script>
+<!-- Modal Arnav-->
+<div class="modal fade" id="arnavModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+			<div class="modal-content">
+					<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+							<h4 class="modal-title" id="myModalLabel">More about Arnav</h4>
+							</div>
+					<div class="modal-body">
+							<center>
+							<img src="../img/team/arnav_no_bkg.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+							<h3 class="media-heading">Arnav Tiwari</h3>
+							<span>
+								<strong>Social Links: </strong>
+								<span>
+									
+								</span>
+							</span>
+							</center>
+							<hr>
+							<center>
+							<p class="text-left">
+								<br>  Lorum Ipsum
+							</p>
+							<br>
+							</center>
+					</div>
+					<div class="modal-footer">
+							<center>
+							<button type="button" class="btn btn-default" data-dismiss="modal">I've stalked enough about Arnav</button>
+							</center>
+					</div>
+			</div>
+	</div>
+	</div>
+	</div>
+	<script>
 	$(document).ready(function(){
-	  $("#anubhav").click(function(){
-		$("#anubhavModal").modal('show');
+	  $("#arnav").click(function(){
+		$("#arnavModal").modal('show');
+	  });
+	});
+	</script>
+	
+	<!-- Modal Atibhi-->
+	<div class="modal fade" id="atibhiModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+			<div class="modal-content">
+					<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+							<h4 class="modal-title" id="myModalLabel">More About Joe</h4>
+							</div>
+					<div class="modal-body">
+							<center>
+							<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+							<h3 class="media-heading">Joe Sixpack <small>USA</small></h3>
+							<span><strong>Skills: </strong></span>
+									<span class="label label-warning">HTML5/CSS</span>
+									<span class="label label-info">Adobe CS 5.5</span>
+									<span class="label label-info">Microsoft Office</span>
+									<span class="label label-success">Windows XP, Vista, 7</span>
+							</center>
+							<hr>
+							<center>
+							<p class="text-left"><strong>Bio: </strong><br>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+							<br>
+							</center>
+					</div>
+					<div class="modal-footer">
+							<center>
+							<button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Joe</button>
+							</center>
+					</div>
+			</div>
+	</div>
+	</div>
+	</div>
+	<script>
+	$(document).ready(function(){
+	  $("#atibhi").click(function(){
+		$("#atibhiModal").modal('show');
+	  });
+	});
+	</script>
+	
+	<!-- Modal Hardik-->
+	<div class="modal fade" id="hardikModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+			<div class="modal-content">
+					<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+							<h4 class="modal-title" id="myModalLabel">More About Joe</h4>
+							</div>
+					<div class="modal-body">
+							<center>
+							<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+							<h3 class="media-heading">Joe Sixpack <small>USA</small></h3>
+							<span><strong>Skills: </strong></span>
+									<span class="label label-warning">HTML5/CSS</span>
+									<span class="label label-info">Adobe CS 5.5</span>
+									<span class="label label-info">Microsoft Office</span>
+									<span class="label label-success">Windows XP, Vista, 7</span>
+							</center>
+							<hr>
+							<center>
+							<p class="text-left"><strong>Bio: </strong><br>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+							<br>
+							</center>
+					</div>
+					<div class="modal-footer">
+							<center>
+							<button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Joe</button>
+							</center>
+					</div>
+			</div>
+	</div>
+	</div>
+	</div>
+	<script>
+	$(document).ready(function(){
+	  $("#hardik").click(function(){
+		$("#hardikModal").modal('show');
+	  });
+	});
+	</script>
+	
+	<!-- Modal Harshit-->
+	<div class="modal fade" id="harshitModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+			<div class="modal-content">
+					<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+							<h4 class="modal-title" id="myModalLabel">More About Joe</h4>
+							</div>
+					<div class="modal-body">
+							<center>
+							<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+							<h3 class="media-heading">Joe Sixpack <small>USA</small></h3>
+							<span><strong>Skills: </strong></span>
+									<span class="label label-warning">HTML5/CSS</span>
+									<span class="label label-info">Adobe CS 5.5</span>
+									<span class="label label-info">Microsoft Office</span>
+									<span class="label label-success">Windows XP, Vista, 7</span>
+							</center>
+							<hr>
+							<center>
+							<p class="text-left"><strong>Bio: </strong><br>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+							<br>
+							</center>
+					</div>
+					<div class="modal-footer">
+							<center>
+							<button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Joe</button>
+							</center>
+					</div>
+			</div>
+	</div>
+	</div>
+	</div>
+	<script>
+	$(document).ready(function(){
+	  $("#harshit").click(function(){
+		$("#harshitModal").modal('show');
+	  });
+	});
+	</script>
+	
+	<!-- Modal Nitanshu-->
+	<div class="modal fade" id="nitanshuModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+			<div class="modal-content">
+					<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+							<h4 class="modal-title" id="myModalLabel">More About Joe</h4>
+							</div>
+					<div class="modal-body">
+							<center>
+							<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+							<h3 class="media-heading">Joe Sixpack <small>USA</small></h3>
+							<span><strong>Skills: </strong></span>
+									<span class="label label-warning">HTML5/CSS</span>
+									<span class="label label-info">Adobe CS 5.5</span>
+									<span class="label label-info">Microsoft Office</span>
+									<span class="label label-success">Windows XP, Vista, 7</span>
+							</center>
+							<hr>
+							<center>
+							<p class="text-left"><strong>Bio: </strong><br>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+							<br>
+							</center>
+					</div>
+					<div class="modal-footer">
+							<center>
+							<button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Joe</button>
+							</center>
+					</div>
+			</div>
+	</div>
+	</div>
+	</div>
+	<script>
+	$(document).ready(function(){
+	  $("#nitanshu").click(function(){
+		$("#nitanshuModal").modal('show');
+	  });
+	});
+	</script>
+
+<!-- Modal Priyanshi -->
+<div class="modal fade" id="priyanshiModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+			<div class="modal-content">
+					<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+							<h4 class="modal-title" id="myModalLabel">More About Joe</h4>
+					</div>
+					<div class="modal-body">
+							<center>
+							<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+							<h3 class="media-heading">Joe Sixpack <small>USA</small></h3>
+							<span><strong>Skills: </strong></span>
+									<span class="label label-warning">HTML5/CSS</span>
+									<span class="label label-info">Adobe CS 5.5</span>
+									<span class="label label-info">Microsoft Office</span>
+									<span class="label label-success">Windows XP, Vista, 7</span>
+							</center>
+							<hr>
+							<center>
+							<p class="text-left"><strong>Bio: </strong><br>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+							<br>
+							</center>
+					</div>
+					<div class="modal-footer">
+							<center>
+							<button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Joe</button>
+							</center>
+					</div>
+			</div>
+	</div>
+</div>
+	<script>
+	$(document).ready(function(){
+	  $("#priyanshi").click(function(){
+		$("#priyanshiModal").modal('show');
+	  });
+	});
+	</script>
+	<!-- Modal Pulkit-->
+	<div class="modal fade" id="pulkitModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+			<div class="modal-content">
+					<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+							<h4 class="modal-title" id="myModalLabel">More About Joe</h4>
+							</div>
+					<div class="modal-body">
+							<center>
+							<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+							<h3 class="media-heading">Joe Sixpack <small>USA</small></h3>
+							<span><strong>Skills: </strong></span>
+									<span class="label label-warning">HTML5/CSS</span>
+									<span class="label label-info">Adobe CS 5.5</span>
+									<span class="label label-info">Microsoft Office</span>
+									<span class="label label-success">Windows XP, Vista, 7</span>
+							</center>
+							<hr>
+							<center>
+							<p class="text-left"><strong>Bio: </strong><br>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+							<br>
+							</center>
+					</div>
+					<div class="modal-footer">
+							<center>
+							<button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Joe</button>
+							</center>
+					</div>
+			</div>
+	</div>
+	</div>
+	</div>
+	<script>
+	$(document).ready(function(){
+	  $("#pulkit").click(function(){
+		$("#pulkitModal").modal('show');
+	  });
+	});
+	</script>
+	
+	<!-- Modal Somesh-->
+	<div class="modal fade" id="someshModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+			<div class="modal-content">
+					<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+							<h4 class="modal-title" id="myModalLabel">More About Joe</h4>
+							</div>
+					<div class="modal-body">
+							<center>
+							<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+							<h3 class="media-heading">Joe Sixpack <small>USA</small></h3>
+							<span><strong>Skills: </strong></span>
+									<span class="label label-warning">HTML5/CSS</span>
+									<span class="label label-info">Adobe CS 5.5</span>
+									<span class="label label-info">Microsoft Office</span>
+									<span class="label label-success">Windows XP, Vista, 7</span>
+							</center>
+							<hr>
+							<center>
+							<p class="text-left"><strong>Bio: </strong><br>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+							<br>
+							</center>
+					</div>
+					<div class="modal-footer">
+							<center>
+							<button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Joe</button>
+							</center>
+					</div>
+			</div>
+	</div>
+	</div>
+	</div>
+	<script>
+	$(document).ready(function(){
+	  $("#somesh").click(function(){
+		$("#someshModal").modal('show');
+	  });
+	});
+	</script>
+	
+	<!-- Modal Sushil-->
+	<div class="modal fade" id="sushilModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+			<div class="modal-content">
+					<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+							<h4 class="modal-title" id="myModalLabel">More About Joe</h4>
+							</div>
+					<div class="modal-body">
+							<center>
+							<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+							<h3 class="media-heading">Joe Sixpack <small>USA</small></h3>
+							<span><strong>Skills: </strong></span>
+									<span class="label label-warning">HTML5/CSS</span>
+									<span class="label label-info">Adobe CS 5.5</span>
+									<span class="label label-info">Microsoft Office</span>
+									<span class="label label-success">Windows XP, Vista, 7</span>
+							</center>
+							<hr>
+							<center>
+							<p class="text-left"><strong>Bio: </strong><br>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+							<br>
+							</center>
+					</div>
+					<div class="modal-footer">
+							<center>
+							<button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Joe</button>
+							</center>
+					</div>
+			</div>
+	</div>
+	</div>
+	</div>
+	<script>
+	$(document).ready(function(){
+	  $("#sushil").click(function(){
+		$("#sushilModal").modal('show');
 	  });
 	});
 	</script>
