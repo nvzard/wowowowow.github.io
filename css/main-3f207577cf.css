@@ -5669,6 +5669,10 @@ picture {
   margin-top: -2%;
 }
 
+.intern {
+  cursor: pointer;
+}
+
 .primary-nav .navbar-nav .menu-item a.is-green:hover {
   color: #282f33;
 }
