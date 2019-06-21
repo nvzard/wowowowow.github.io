@@ -5692,6 +5692,11 @@ picture {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.footer-text {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 22px;
+}
+
 .modal-header {
   border: 0 !important;
 }
