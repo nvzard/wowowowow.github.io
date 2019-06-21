@@ -2243,6 +2243,10 @@ fieldset[disabled] a.btn {
   border-color: transparent;
 }
 
+#close-btn {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 .btn-default:focus, .btn-default.focus {
   color: #333;
   background-color: #e6e5e5;
@@ -6021,10 +6025,6 @@ blockquote:after {
   letter-spacing: 1px;
   line-height: 1;
   text-transform: uppercase;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-.close-btn {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -10149,6 +10149,7 @@ footer {
   justify-content: center;
   line-height: 50px;
 }
+
 .imprint p{
 	padding: 10px;
 }
