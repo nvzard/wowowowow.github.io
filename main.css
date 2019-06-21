@@ -5689,6 +5689,7 @@ picture {
   color: green;
   font-size: 32px;
   margin-top: -2.4%;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .modal-header {
@@ -6006,7 +6007,7 @@ blockquote:after {
   font-size: 18px;
   line-height: 1;
   margin-bottom: 5px;
-  font-family: 'FoundationSans-Roman';
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .heading-quinary {
@@ -6015,7 +6016,11 @@ blockquote:after {
   letter-spacing: 1px;
   line-height: 1;
   text-transform: uppercase;
-  font-family: 'FoundationSans-Cd';
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.close-btn {
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 /*Link Underline*/
